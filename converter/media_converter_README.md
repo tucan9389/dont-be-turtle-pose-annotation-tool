@@ -21,13 +21,13 @@ $ python enclose_video.py
 
 ##### 3.2 Convert video to images
 
-```
+```shell
 $ python split_video_to_images.py
 ```
 
 ##### 3.3 Create `annotation.json` which is COCO format json
 
-```
+```shell
 $ python make_annotation_json.py
 ```
 
@@ -138,7 +138,7 @@ dataset
 
 `annotation.json` 포맷
 
-```
+```json
 {
     "images": [{
     	"file_name": image_name,
